@@ -1,0 +1,35 @@
+1. Clone Repository
+   1. Opret en lokal mappe på din pc, som du ønsker programmet skal være i. 
+   2. Åben terminalen og find pathen til mappen. 
+   3. Når du er i pathen skal du clone github repositoriet under github. 
+   4. Gå under den grønne knap “code” eller “clone” og kopier https web URL. (P1:       
+      https://github.com/08micco/P1.git)
+   5. I terminalen skriv “git clone repo_url_path”, for at lave en lokal kopi af repositoriet.
+
+2. Branches
+Til at starte med bliver der altid oprettet en main branch, som man arbejder på. Det er dog en god idé at hver person i gruppen laver deres egen branch så alle ikke pusher til main branchen, hvilket kan lede til forvirringer og fejl i filer.
+Naming convention på branch:  “navn/feature”  fx. “Mikkel/pie-chart”  -- I guess
+
+   1. Brug kommandoen “git branch” for at se hvilke branches der er lavet, og hvilken der er i    
+      brug (markeret med grøn og en stjerne).
+   2. Der kan laves en ny branch med kommandoen “git branch branch_name” og derefter checkout 
+      branchen med kommandoen “git checkout branch_name”. Disse to kommandoer kan også blive    
+      koblet sammen i en:  “git checkout -b branch_name”
+   3. "git branch -d branch_name" sletter branchen
+
+3. Commit
+   1. Kommandoen “git status” fortæller om der er lavet nye filer eller modificerede filer 
+      ift. hvad der er committed til git.
+   2. “git add file_name” tilføjer filen til git. “git add -a” tilføjer alle filer i mappen.
+   3. Filer kan også fjernes fra git med kommandoen “git rm file_name”
+   4. Derefter kan de tilføjede filer committes til git via kommandoen “git commit -m ‘besked 
+      der beskriver ændringerne’”. -m er den option der gør at man kan sende en besked med. 
+      Dette vil næsten altid gøres da det gør det hele mere overskueligt for de andre i gruppen.
+
+4. Push
+   1. Kommandoen “git push” bliver brugt til at pushe alle staged filer, der er blevet committed,    
+      til github repositoriet.
+   2. “git push -u origin branch_name” 
+
+Skal lige laves videre på
+									-Mikkel Wissing, https://github.com/08micco
