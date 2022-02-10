@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url("Images/Norge.JPG");
+  background-size: cover;
+  background-color: darkgoldenrod;
+  font-size: 1vw;
+}
+
+img.me {
+  height: 9vw;
+  border-radius: 65px;
+  /* float: left; */
+  margin: 1rem;
+}
+
+.icon {
+  height: 1vw;
+  /* float: left; */
+}
+
+div.right-bar,
+div.main-info {
+  width: 25%;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  margin: 1rem;
+  border-radius: 20px;
+  background-color: rgba(213, 205, 205, 0.6);
+}
+
+div.right-bar {
+  float: right;
+}
+
+div.main-info {
+  float: left;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 1rem;
+  text-align: justify;
+}
+
+.article-rapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.inner-article-rapper {
+  width: auto;
+  margin-left: 0;
+  width: 100%;
+}
+
+.align {
+  display: flex;
+  justify-content: space-between;
+  max-height: 2vw;
+  font-size: 0.7vw;
+  width: 100%;
+}
+
+.me-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-right: 0;
+}
