@@ -1,0 +1,29 @@
+
+<script> 
+function grid(str, size) {
+    for (let j = 0; j < size; j++) {
+        if (j % 2 === 0)
+            str += " ";
+        for (let i = 0; i < size; i++) {
+            if (i % 2 === 0)
+                str += "#";
+            else
+                str += " ";
+        }
+        str += "\n";
+    }
+    return str;
+}
+
+let str = "";
+console.log(grid(str, 10000));
+
+
+
+
+/* let str = " ";
+if (str[str.length - 1] === " ") {
+    str += "#";
+}
+console.log(str); */
+</script>
