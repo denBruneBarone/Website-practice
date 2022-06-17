@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+* {
+   font-size: 16px;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* background-image: url("Images/Norge.JPG");
+  background-size: cover;
+  background-color: darkgoldenrod; */
+  font-size: 0.8vw;
+}
+
+img {
+   max-height: 15vw;
+}
